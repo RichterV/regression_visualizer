@@ -203,7 +203,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (currentModel === 'linear') {
             coefficients.linear = { b0: 0, b1: 1 };
         } else {
-            coefficients.quadratic = { b0: 0, b1: 1, b2: 0.5 };
+            coefficients.quadratic = { b0: 0, b1: 1, b2: 0 };
         }
         initUI();
     });
