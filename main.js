@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let currentModel = 'linear';
     let coefficients = {
         linear: { b0: 0, b1: 1 },
-        quadratic: { b0: 0, b1: 1, b2: 0.5 }
+        quadratic: { b0: 0, b1: 1, b2: 0 }
     };
 
     // Chart setup
